@@ -1,13 +1,25 @@
-# Customer_Review_Forecast_Engine
-This project is focused on implementing ML techniques to forecast the number of customer reviews in the next 24 hours. 
+# Customer Review Forecast Engine
 
+## Description
+This project is focused on implementing ML techniques to forecast the number of customer reviews in the next 24 hours. 
+In simple terms, this project predicts the number of reviews that will occur every hour for the next 24 hours. 
+
+## Dataset
 The dataset used in the project from the UCI Machine Learning Repository.
 
 The link to the dataset can be found below.
 
+https://archive.ics.uci.edu/dataset/1276/amazon+product+and+google+locations+reviews
+
 Adler, C., Chang, Y., Draxler, F., Abdi, S., & Smyth, P. (2026). Amazon Product and Google Locations Reviews [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5SP7K.
 
 Download the dataset from this site and rename it to "Amazon-Google_Reviews.csv"
+
+### Varibales
+- **Index**: Index Column
+- **ds**: Date Time
+- **y**: Number of Reviews per Hour
+- **unique_id**: Integer ID for product/location category	
 
 ## Instructions
 1. Download the file and open it on Google Colab.
